@@ -38,6 +38,8 @@ Guaranteed as long as conditions are met:
 -   IP change is obligatory after each decision
 -   Reuse IP no more than 3 times in 2 hours.
 
+Cookies and additional data are not required for quality solutions.
+
 ### Speed of solutions
 
 Less than 15 seconds for one solution of captcha.
