@@ -2,6 +2,8 @@
 
 Cheapest and highest quality ReCaptcha V2 / Enterprise solver.
 
+Please ignore this app if you don't need it, or if you are satisfied with the results of the services, or the results of another similar apps.
+
 ![](./tests-screen.jpg)
 
 ## Features
