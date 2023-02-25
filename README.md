@@ -110,6 +110,12 @@ Rotation by time is better not to use, especially for the enterprise version of 
 
 Rotation on each request also does not make sense when solving captchas.
 
+**A few words about proxy services**
+
+Even if you use mobile or resedent proxies, there is no guarantee that you will receive the maximum trust from the captcha.
+Certain subnets may be blacklisted by the captcha provider.
+You should check several different services and countries, and if possible exclude RU IP's, as they have a maximum score of 0.7.
+
 ## Other
 
 This is a paid app. You can access it using the contacts below.
