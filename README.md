@@ -14,6 +14,14 @@ Cheapest and highest quality ReCaptcha V2 / Enterprise solver.
 
 ## Features
 
+### Working with API
+
+You interact with the application through the REST API and receive a captcha token as a solution.
+For security, you need to specify the access keys to the application.
+You choose them yourself and use them in your applications as api keys.
+
+You can add them singly, from a file or from a link.
+
 ### Support for the Enterprise version of the captcha
 
 Works for any sites with captchas of this type.
@@ -74,11 +82,33 @@ It can be useful when working with proxies having rotation by the link.
 
 Supported:
 
--   RuCaptcha
--   2Captcha
--   Anticaptcha
+- RuCaptcha
+- 2Captcha
+- Anticaptcha
 
-To work with existing applications you need to replace API link of one of the above services, or add rules to system hosts file.
+If you write queries from scratch, follow instructions from [here](https://anti-captcha.com/apidoc) or [here](https://rucaptcha.com/api-rucaptcha), then change the host of the link to your own.
+For example: the application runs locally (127.0.0.1) on port 5555, in this case change the link like this:
+
+**For RuCaptcha/2Captcha API**:
+
+- http://rucaptcha.com/in.php --> http://127.0.0.1:5555/in.php
+- http://rucaptcha.com/res.php --> http://127.0.0.1:5555/res.php
+
+**For Anticaptcha API**:
+
+- https://api.anti-captcha.com/createTask --> http://127.0.0.1:5555/createTask
+- https://api.anti-captcha.com/getTaskResult --> http://127.0.0.1:5555/getTaskResult
+
+If you use ready-made solutions and there is no possibility to change the link, you can add a rule to the hosts file.
+
+To do this:
+
+- Run the application on port 80
+- Open as administrator the file c:{windows\system32\drivers\etc\hosts
+- Add the following lines to the very end
+- 127.0.0.1 rucaptcha.com
+- 127.0.0.1 anti-captcha.com
+- Save this file
 
 ## Proxies tier list
 
