@@ -47,6 +47,7 @@ Guaranteed as long as conditions are met:
 -   Reuse IP no more than 3 times in 2 hours.
 
 Cookies and additional data are not required for quality solutions.
+
 [Proxies tier list](#proxies-tier-list).
 
 ### Speed of solutions
@@ -81,25 +82,26 @@ To work with existing applications you need to replace API link of one of the ab
 
 ## Proxies tier list
 
-*Mobile or Resident IPv4/IPv6*
+**Mobile or Resident IPv4/IPv6**
 - Best choice. Suitable for any captcha.
 - Get maximum trust from captcha provider.
 - On one IP it is possible to solve 3 enterprise type CAPTCHA for 2 hours, receiving the maximum score 0.9. If to solve more - score will start to fall and will be restored in 48 hours.
 - Often slow and expensive, which may adversely affect when used with conventional v2 captcha.
 
-*Hostings IPv4*
+**Hostings IPv4**
 - Trust from captcha provider is limited.
 - It is impossible to get the maximum score on the enterprise version of the captcha. Under ideal conditions, the best score will be 0.7, more realistically - 0.3.
 - Fast. Good option for usual v2 captchas.
 
-*Hostings IPv6*
+**Hostings IPv6**
 - Trust from captcha provider is minimal.
 - Not suitable for enterprise captcha. Maximum score is 0.1.
 - IPs often get banned, so it is best to use many of them from different subnets.
 - The cheapest option for regular v2 captchas.
 - You can raise 15000 (or more) proxies by yourself using my free [script] (https://github.com/Sadzurami/tunnelbroker-proxies). And it will cost [4$ per month](https://hetzner.cloud/?ref=u773sH3Kq8gw). It is better to raise several of them, so that there are different subnets.
 
-*A few words about rotation*
+**A few words about rotation**
+
 It's best to use rotation by link.
 The app knows how to change the IP by link, if you provide a link along with a proxy, with a `|` separator.
 For example: `http://log:pass@1.2.3.4:8080|http://changeip.com`
