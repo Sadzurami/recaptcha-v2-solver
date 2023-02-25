@@ -106,8 +106,8 @@ To do this:
 - Run the application on port 80
 - Open as administrator the file c:{windows\system32\drivers\etc\hosts
 - Add the following lines to the very end
-- 127.0.0.1 rucaptcha.com
-- 127.0.0.1 anti-captcha.com
+- `127.0.0.1 rucaptcha.com`
+- `127.0.0.1 anti-captcha.com`
 - Save this file
 
 ## Proxies tier list
