@@ -86,7 +86,7 @@ Supported:
 - 2Captcha
 - Anticaptcha
 
-If you write queries from scratch, follow instructions from [here](https://anti-captcha.com/apidoc) or [here](https://rucaptcha.com/api-rucaptcha), then change the host of the link to your own.
+If you write queries from scratch, follow instructions from [here](https://anti-captcha.com/apidoc) or [here](https://2captcha.com/2captcha-api), then change the host of the link to your own.
 For example: the application runs locally (127.0.0.1) on port 5555, in this case change the link like this:
 
 **For RuCaptcha/2Captcha API**:
