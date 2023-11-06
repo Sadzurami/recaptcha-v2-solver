@@ -1,6 +1,6 @@
 # ReCaptcha V2 Solver
 
-# NOT SUPPORTED ANYMORE
+# !NOT SUPPORTED ANYMORE!
 
 Cheapest and highest quality ReCaptcha V2 / Enterprise solver.
 
